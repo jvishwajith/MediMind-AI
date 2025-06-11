@@ -1,4 +1,4 @@
-# 🏥 Healthcare AI Assistant
+# 🏥 MediMind AI - A Multi-Agent AI Assisted Healthcare Intelligence ChatBot
 
 *An intelligent multi-agent system for healthcare data analysis and patient information management*
 
