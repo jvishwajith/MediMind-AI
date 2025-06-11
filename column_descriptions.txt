@@ -1,0 +1,36 @@
+================================================================================
+Column Name                    | Description                                  
+--------------------------------------------------------------------------------
+Patient_Id                     | A unique identifier assigned to each patient to ensure data privacy and enable tracking across multiple visits without revealing personal details.
+DrugEye                        | Specifies the eye for which the drug was prescribed during each visit. If multiple records are tied to the same visit, the values are separated by semicolons (;). - 1: Right eye - 2: Left eye - 3: Both eyes
+Drugname                       | The name of the medication prescribed during a single visit. Multiple drugs prescribed within the same visit are separated by semicolons (;).
+DiagnosisEye                   | Specifies the eye for which the diagnosis was made during each visit. If multiple visits are recorded in a single patient record, the values are separated by semicolons (;). Each value corresponds to one visit: - 1: Right eye - 2: Left eye - 3: Both eyes.
+DiagnosisName                  | The diagnosis or medical condition identified during the patient's visit. If multiple diagnoses are recorded for a single patient across visits, the values are separated by semicolons (;).
+deptname                       | The department or specialty clinic the patient Recorded, such as Retina Clinic or Glaucoma Clinic. If multiple Records are recorded in the same patient record, the values are separated by semicolons (;).
+investicationName              | The diagnostic tests, scans, or procedures performed during the patient's visit, such as Optical Coherence Tomography or blood tests. If multiple visits are recorded, the values are separated by semicolons (;).
+complaintName                  | The symptoms or issues reported by the patient during their visit, such as pain, redness, or defective vision. If multiple visits are recorded in a single patient record, the values are separated by semicolons (;).
+WearGlasses                    | Indicates whether the patient wears glasses: Yes or No. If multiple visits are recorded, the values are separated by semicolons (;) indicating multiple records for the same visit.
+CurrentGlassDuration           | Specifies the duration for which the patient has been using their current pair of glasses, e.g., "1 year", "2 years". If multiple visits are recorded, the values are separated by semicolons (;).
+Revalue                        | Visual acuity measurement for the right eye (RE). If multiple visits are recorded, the values are separated by semicolons (;).
+Levalue                        | Visual acuity measurement for the left eye (LE). If multiple visits are recorded, the values are separated by semicolons (;).
+LidLe                          | Observations or findings related to the eyelid of the left eye. If multiple visits are recorded, the values are separated by semicolons (;).
+LidRe                          | Observations or findings related to the eyelid of the right eye. If multiple visits are recorded, the values are separated by semicolons (;).
+ConjunctivaRe                  | Observations of the conjunctiva (the thin membrane covering the white part of the eye) of the right eye. If multiple visits are recorded, the values are separated by semicolons (;).
+ConjunctivaLe                  | Observations of the conjunctiva of the left eye. If multiple visits are recorded, the values are separated by semicolons (;).
+CorneaRe                       | Findings related to the cornea of the right eye. If multiple visits are recorded, the values are separated by semicolons (;).
+CorneaLe                       | Findings related to the cornea of the left eye. If multiple visits are recorded, the values are separated by semicolons (;).
+AnteriorChamberRe              | Observations of the anterior chamber (the fluid-filled space between the cornea and iris) of the right eye. If multiple values are recorded, they are separated by semicolons (;), indicating repeated assessments during a visit.
+AnteriorChamberLe              | Observations of the anterior chamber of the left eye. If multiple values are recorded, they are separated by semicolons (;), indicating repeated assessments during a visit.
+discre                         | Describes findings related to the retina or optic disc of the right eye. If multiple findings are recorded, they are separated by semicolons (;), indicating multiple observations during the same visit.
+discle                         | Describes findings related to the retina or optic disc of the left eye. If multiple findings are recorded, they are separated by semicolons (;).
+vesselsre                      | Observations of blood vessels in the retina of the right eye. If multiple observations are recorded, they are separated by semicolons (;).
+vesselsle                      | Observations of blood vessels in the retina of the left eye. If multiple observations are recorded, they are separated by semicolons (;).
+backgroundretinare             | Describes the background findings in the retina of the right eye, such as scars, lesions, or pigmentation. If multiple findings are recorded, they are separated by semicolons (;).
+backgroundretinale             | Describes the background findings in the retina of the left eye, such as scars, lesions, or pigmentation. If multiple findings are recorded, they are separated by semicolons (;).
+drugdaysdescription            | Duration for which the prescribed drug is to be used. If multiple records are tied to the same visit, the values are separated by semicolons (;).
+drugfreqdesc                   | Frequency of drug administration during a visit. Multiple frequencies in a single visit are separated by semicolons (;).
+drugmealsdesc                  | Indicates whether the drug should be taken before or after meals during a visit. Multiple records in a single visit are separated by semicolons (;).
+drugstartdate                  | The start date for the prescribed medication. Multiple records for a single visit are separated by semicolons (;).
+drugdosagedesc                 | Description of the drug dosage, such as "1 drop" or "1 tablet". Multiple records for the same visit are separated by semicolons (;).
+
+================================================================================

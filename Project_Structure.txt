@@ -1,0 +1,8 @@
+healthcare_agentic_AI/
+├── app.py
+├── templates/
+│   └── index.html
+├── requirements.txt
+├── db.txt
+├── Patient_data_Description.csv
+└── patient_data.db
